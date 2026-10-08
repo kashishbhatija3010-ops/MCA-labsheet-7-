@@ -236,7 +236,6 @@ comparison = pd.DataFrame({
 comparison
 
 small_sample = tfidf_matrix[:100].toarray()
-
 linked = linkage(
     small_sample,
     method="ward"
